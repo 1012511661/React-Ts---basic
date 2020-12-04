@@ -18,8 +18,7 @@ function App() {
       <UseEffectCon />
       <h3>自定义 hooks (获取鼠标移动坐标)</h3>
       <p>
-        {" "}
-        x:{postion.x},y:{postion.y}
+        鼠标坐标：x:{postion.x},y:{postion.y}
       </p>
     </div>
   );
