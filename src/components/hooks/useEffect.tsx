@@ -85,7 +85,7 @@ import React, { useState, useEffect } from "react";
 //   };
 const UseEffectCon: React.FC = () => {
   // 3. useEffect(()=>{},[AAA])
-  // 第二个参数是y有值数组
+  // 第二个参数是有值数组
   // 只有在该数组中指定的其中一个值代表就回触发
   const [obj, setObj] = useState({ x: 0, y: 0 });
   const [on, setOn] = useState(false);
