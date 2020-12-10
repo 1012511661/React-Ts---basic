@@ -5,7 +5,7 @@
  */
 
 import React, {useState} from "react";
-// useState() 单个值 1
+// useState() 单个值 1.
 const LinkButton: React.FC = () => {
     const [link, setLink] = useState(0);
     return (
@@ -18,7 +18,7 @@ const LinkButton: React.FC = () => {
         </button>
     );
 };
-// useState() 单个值 2
+// useState() 单个值 2.
 // const LinkButton: React.FC = () => {
 //     const [link, setLink] = useState(0);
 //     const handleLink = () => {
@@ -28,6 +28,7 @@ const LinkButton: React.FC = () => {
 //         <button onClick={handleLink}>{link} 点赞+2</button>
 //     )
 // }
+
 // useState() 多个值
 // const LinkButton: React.FC = () => {
 //     // 注意 useState()两个以上值 需要用{} 表示useState({})
